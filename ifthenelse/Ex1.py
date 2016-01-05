@@ -1,5 +1,3 @@
-score = 70
-
 if score >= 90:
 	print("grae is A")
 elif score >= 80:

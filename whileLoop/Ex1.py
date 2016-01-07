@@ -4,8 +4,6 @@ a = int(input("Enter first integer: "))
 
 b = int(input("Enter second integer: ")) 
 
-#min = 0
-
 if a == 0 and b == 0:
 	print("Do not exsist divisor")
 elif a!=0 and b == 0:

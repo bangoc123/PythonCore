@@ -21,7 +21,7 @@ for i in range(0,20):
 	lst.append(str1)
 
 for i in range(0, len(lst)-1):
-	for j in range(i, len(lst)):
+	for j in range(i+1, len(lst)):
 		if ord(lst[j][0].upper()) >= ord(lst[i][0].upper()):
 			temp = lst[i]
 			lst[i] = lst[j]

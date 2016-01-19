@@ -13,7 +13,7 @@ while True:
 	c = b
 
 	def div(c):
-		if a % c == 0 and b % c == 0:
+		if (a % c == 0) and (b % c) == 0:
 			return c
 		else:
 			return div(c-1)

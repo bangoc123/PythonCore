@@ -6,9 +6,9 @@ dirs = list(os.walk(currentdir))
 
 for i in range(1,len(dirs)):
 	
-	if dirs[i][2] == []:
+	if len(dirs[i][2]) == 1:
 		continue
-
+	
 	name = dirs[i][2][1] 
 
 	originPath = dirs[i][0] + '/' +dirs[i][2][1] 
